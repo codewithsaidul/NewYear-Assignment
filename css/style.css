@@ -10,7 +10,7 @@
     /* font-family: 'Merriweather', serif; */
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -90,6 +90,11 @@ main section {
     text-transform: uppercase;
 }
 
+.categories__content .categories__img{
+    width: 657px;
+    margin: 0 auto;
+}
+
 /* ===================================================================================================
 =========== MidNight Section Related Style ================
 ====================================================================================================== */
@@ -129,7 +134,7 @@ main section {
     text-transform: capitalize;
 }
 
-.midnight__content .midnight__text .midnight__btn{
+.midnight__content .midnight__text .midnight__btn {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
@@ -144,15 +149,15 @@ main section {
 =========== Portfolio Section Related Style ================
 ====================================================================================================== */
 
-.portfolio__heading .portfolio__subtitle{
+.portfolio__heading .portfolio__subtitle {
     margin-bottom: 16px;
 }
 
-.portfolio__heading .portfolio__title{
+.portfolio__heading .portfolio__title {
     margin-bottom: 22px;
 }
 
-.portfolio__heading .portfolio__description{
+.portfolio__heading .portfolio__description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
@@ -163,26 +168,26 @@ main section {
 .portfolio__content {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 
-.portfolio__content .portfolio__item{
-    width: 360px;
+.portfolio__content .portfolio__item {
+    width: 330px;
 }
 
-.portfolio__content .portfolio__item .portfolio__img{
+.portfolio__content .portfolio__item .portfolio__img {
     position: relative;
     transform: scale(.95);
     transition: .5s;
 }
 
-.portfolio__content .portfolio__item .portfolio__img:hover{
+.portfolio__content .portfolio__item .portfolio__img:hover {
     transform: scale(1.1);
     transition: 1s;
 }
 
-.portfolio__content .portfolio__item .portfolio__img .port__btn{
+.portfolio__content .portfolio__item .portfolio__img .port__btn {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
@@ -198,7 +203,78 @@ main section {
 }
 
 
-.portfolio__content .portfolio__item .portfolio__img:hover.portfolio__img .port__btn{
+.portfolio__content .portfolio__item .portfolio__img:hover.portfolio__img .port__btn {
     display: block;
     transition: 1s ease-in-out;
+}
+
+
+
+/* ===================================================================================================
+=========== Newsletter Section Related Style ================
+====================================================================================================== */
+
+.newsletter__content {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.newsletter__content .newsletter__subscribe .newsletter__img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 40px;
+}
+
+.newsletter__content .newsletter__subscribe .newsletter__title{
+    margin-bottom: 22px;
+}
+
+.newsletter__content .newsletter__subscribe .newsletter__description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 735px;
+    margin: 0 auto 48px;
+    text-transform: capitalize;
+}
+
+
+.newsletter__content .newsletter__form{
+    
+}
+.newsletter__content .newsletter__form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 532px;
+    margin: 0 auto;
+    height: 72px;
+    /* border-radius: 30px; */
+}
+
+.newsletter__content .newsletter__form form input[type="email"] {
+    flex-grow: 1;
+    padding: 25px 0 25px 30px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px 0 0 50px;
+}
+
+.newsletter__content .newsletter__form form input[type="submit"] {
+    padding: 21px 56px;
+    background-color: #FF0000;
+    outline: none;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
 }
