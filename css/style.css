@@ -90,7 +90,7 @@ main section {
     text-transform: uppercase;
 }
 
-.categories__content .categories__img{
+.categories__content .categories__img {
     width: 657px;
     margin: 0 auto;
 }
@@ -148,14 +148,14 @@ main section {
 =========== Join Now Section Related Style ================
 ====================================================================================================== */
 
-.joinNow__content{
+.joinNow__content {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px 0;
     text-align: center;
     border-radius: 16px;
 }
 
-.joinNow__content .joinnow__title{
+.joinNow__content .joinnow__title {
     color: #070211;
     font-size: 32px;
     font-weight: 600;
@@ -163,15 +163,15 @@ main section {
     text-transform: capitalize;
 }
 
-.joinNow__content .joinnow__title span{
+.joinNow__content .joinnow__title span {
     color: #FF0000;
 }
 
-.joinNow__content .join__time{
+.joinNow__content .join__time {
     margin-bottom: 48px;
 }
 
-.joinNow__content .joinNow__btn{
+.joinNow__content .joinNow__btn {
     padding: 16px 32px;
     background-color: #FF0000;
     color: #fff;
@@ -194,59 +194,137 @@ main section {
     gap: 60px;
 }
 
-.newoffer__item1{
+.newoffer__item1 {
     width: 30%;
 }
 
-.newoffer__item2{
+.newoffer__item2 {
     width: 40%;
     margin-left: 30px;
 }
 
 
-.newoffer__item3{
+.newoffer__item3 {
     width: 20%;
 }
 
-.newOffer__content .newOffer__item .section__title{
+.newOffer__content .newOffer__item .section__title {
     margin-bottom: 20px;
 }
 
-.newOffer__content .newOffer__item .newOffer__description{
+.newOffer__content .newOffer__item .newOffer__description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     width: 317px;
-    padding: 0 20px 0 0; 
+    padding: 0 20px 0 0;
     text-align: left;
 }
 
-.newOffer__content .newOffer__img{
+.newOffer__content .newOffer__img {
     border: 8px solid #FF0000;
     border-radius: 50%;
     padding: 20px;
 }
 
-.newOffer__content .newOffer__item .newOffer__title{
+.newOffer__content .newOffer__item .newOffer__title {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
     color: #FF0000;
 }
 
-.newOffer__content .newoffer__item3 .newOffer__description{
+.newOffer__content .newoffer__item3 .newOffer__description {
     margin-bottom: 40px;
 }
 
-.newOffer__content .newOffer__item .newOffer__item-img{
+.newOffer__content .newOffer__item .newOffer__item-img {
     width: 140px;
     height: 140px;
 }
 
+
+
+/* ===================================================================================================
+=========== Holiday Section Related Style ================
+====================================================================================================== */
+
+
+.holiday__heading .holiday__subtitle {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday__heading .holiday__title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.holiday__heading .holiday__title span {
+    color: #FF0000;
+}
+
+.holiday__heading .holiday__description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    width: 875px;
+    margin: 0 auto 70px;
+}
+
+
+.holiday__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.holiday__content::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 230px;
+    background-color: #FF0000;
+    bottom: -230px;
+    left: 0;
+}
+
+
+
+
+.holiday__content .holiday__surprizeBox,
+.holiday__content .holiday__img {
+    width: 400px;
+    height: 400px;
+}
+
+
+.holiday__content .holiday__surprizeBox .holiday__img {
+    position: absolute;
+    width: 800;
+    height: 500px;
+    bottom: -300px;
+}
+
+
 /* ===================================================================================================
 =========== Portfolio Section Related Style ================
 ====================================================================================================== */
+#portfolio {
+    margin-top: 350px;
+}
 
 .portfolio__heading .portfolio__subtitle {
     margin-bottom: 16px;
@@ -326,11 +404,11 @@ main section {
     margin: 0 auto 40px;
 }
 
-.newsletter__content .newsletter__subscribe .newsletter__title{
+.newsletter__content .newsletter__subscribe .newsletter__title {
     margin-bottom: 22px;
 }
 
-.newsletter__content .newsletter__subscribe .newsletter__description{
+.newsletter__content .newsletter__subscribe .newsletter__description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
@@ -341,7 +419,7 @@ main section {
 }
 
 
-.newsletter__content .newsletter__form form{
+.newsletter__content .newsletter__form form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -380,13 +458,13 @@ main section {
 =========== Footer Section Related Style ================
 ====================================================================================================== */
 
-.footer{
+.footer {
     margin-top: 120px;
     padding: 120px 100px;
     background-color: #070211;
 }
 
-.footer__content .footer__top{
+.footer__content .footer__top {
     /* padding: 0 100px; */
     color: #fff;
     display: flex;
@@ -395,7 +473,7 @@ main section {
     margin-bottom: 125px;
 }
 
-.footer__content .footer__top .footer__top-title{
+.footer__content .footer__top .footer__top-title {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
@@ -403,19 +481,20 @@ main section {
     width: 90%;
 }
 
-.footer__content .footer__top .footer__top-rigth .footer__phone{
+.footer__content .footer__top .footer__top-rigth .footer__phone {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.footer__content .footer__top .footer__top-rigth .footer__website{
+
+.footer__content .footer__top .footer__top-rigth .footer__website {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
 .footer__content .footer__top .footer__top-rigth .footer__phone img,
-.footer__content .footer__top .footer__top-rigth .footer__website img{
+.footer__content .footer__top .footer__top-rigth .footer__website img {
     width: 24px;
     height: 24px;
 
@@ -423,19 +502,19 @@ main section {
 
 
 
-.footer__content .footer__top .footer__top-rigth .footer__phone span{
+.footer__content .footer__top .footer__top-rigth .footer__phone span {
     font-size: 24px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.footer__content .footer__top .footer__top-rigth .footer__website span{
+.footer__content .footer__top .footer__top-rigth .footer__website span {
     font-size: 24px;
     font-weight: 400;
     line-height: 40px;
 }
 
-.footer__content .footer__middle .footer__social{
+.footer__content .footer__middle .footer__social {
     text-align: center;
     display: flex;
     align-items: center;
@@ -444,18 +523,18 @@ main section {
     margin-bottom: 100px;
 }
 
-.footer__content .footer__middle .footer__social .footer__link{
+.footer__content .footer__middle .footer__social .footer__link {
     text-decoration: none;
 }
 
-.footer__content .footer__middle .footer__social .footer__link img{
+.footer__content .footer__middle .footer__social .footer__link img {
     width: 64px;
     height: 64px;
 
 }
 
 
-.footer__content .footer__bottom{
+.footer__content .footer__bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -464,7 +543,7 @@ main section {
 }
 
 .footer__content .footer__bottom .footer__copy,
-.footer__content .footer__bottom .footer__unsub{
+.footer__content .footer__bottom .footer__unsub {
     font-size: 24px;
     font-weight: 500;
 }
