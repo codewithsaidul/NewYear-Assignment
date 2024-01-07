@@ -140,6 +140,9 @@ main section {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border-radius: 8px;
 }
 
 
