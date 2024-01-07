@@ -242,9 +242,6 @@ main section {
 }
 
 
-.newsletter__content .newsletter__form{
-    
-}
 .newsletter__content .newsletter__form form{
     display: flex;
     justify-content: center;
@@ -252,7 +249,6 @@ main section {
     width: 532px;
     margin: 0 auto;
     height: 72px;
-    /* border-radius: 30px; */
 }
 
 .newsletter__content .newsletter__form form input[type="email"] {
@@ -268,7 +264,7 @@ main section {
 }
 
 .newsletter__content .newsletter__form form input[type="submit"] {
-    padding: 21px 56px;
+    padding: 24px 56px;
     background-color: #FF0000;
     outline: none;
     border: none;
@@ -277,4 +273,99 @@ main section {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+
+
+/* ===================================================================================================
+=========== Footer Section Related Style ================
+====================================================================================================== */
+
+.footer{
+    margin-top: 120px;
+    padding: 120px 100px;
+    background-color: #070211;
+}
+
+.footer__content .footer__top{
+    /* padding: 0 100px; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+.footer__content .footer__top .footer__top-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.footer__content .footer__top .footer__top-rigth .footer__phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__content .footer__top .footer__top-rigth .footer__website{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__content .footer__top .footer__top-rigth .footer__phone img,
+.footer__content .footer__top .footer__top-rigth .footer__website img{
+    width: 24px;
+    height: 24px;
+
+}
+
+
+
+.footer__content .footer__top .footer__top-rigth .footer__phone span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer__content .footer__top .footer__top-rigth .footer__website span{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer__content .footer__middle .footer__social{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.footer__content .footer__middle .footer__social .footer__link{
+    text-decoration: none;
+}
+
+.footer__content .footer__middle .footer__social .footer__link img{
+    width: 64px;
+    height: 64px;
+
+}
+
+
+.footer__content .footer__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    /* padding: 120px; */
+}
+
+.footer__content .footer__bottom .footer__copy,
+.footer__content .footer__bottom .footer__unsub{
+    font-size: 24px;
+    font-weight: 500;
 }
