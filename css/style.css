@@ -44,7 +44,7 @@ main section {
     margin-bottom: 16px;
 }
 
-.banner .banner__content .banner__title{
+.banner .banner__content .banner__title {
     width: 518px;
     font-size: 60px;
     font-weight: 700;
@@ -57,11 +57,11 @@ main section {
 /* ===================================================================================================
 =========== Categories Section Related Style ================
 ====================================================================================================== */
-#categories{
+#categories {
     text-align: center;
 }
 
-.categories__content .discount{
+.categories__content .discount {
     font-size: 72px;
     font-weight: 700;
     color: #FF0000;
@@ -69,7 +69,7 @@ main section {
     text-transform: uppercase;
 }
 
-.categories__content .section__subtitle{
+.categories__content .section__subtitle {
     font-size: 24px;
     font-weight: 500;
     color: #FF0000;
@@ -77,10 +77,60 @@ main section {
     text-transform: uppercase;
 }
 
-.categories__content .section__title{
+.categories__content .section__title {
     font-size: 40px;
     font-weight: 700;
     color: #070211;
     margin-bottom: 48px;
     text-transform: uppercase;
 }
+
+
+/* ===================================================================================================
+=========== MidNight Section Related Style ================
+====================================================================================================== */
+
+.midnight__content {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 142px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+
+.midnight__content .midnight__text .midnight__title {
+    color: #fff;
+    width: 526px;
+    font-family: 'Merriweather', serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.midnight__content .midnight__text .midnight__description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    width: 572px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.midnight__content .midnight__text .midnight__btn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
