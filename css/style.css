@@ -143,6 +143,16 @@ main section {
     padding: 16px 32px;
     background-color: #FF0000;
     border-radius: 8px;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+
+.midnight__content .midnight__text .midnight__btn:hover{
+    border: 1px solid #FF0000;
+    background-color: transparent;
+    color: #fff;
+    transition: .5s;
 }
 
 
@@ -183,6 +193,15 @@ main section {
     text-transform: uppercase;
     border-radius: 8px;
     text-decoration: none;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+.joinNow__content .joinNow__btn:hover{
+    border: 1px solid #FF0000;
+    background-color: transparent;
+    color: #FF0000;
+    transition: .5s;
 }
 
 
