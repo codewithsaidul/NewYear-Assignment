@@ -100,7 +100,7 @@ main section {
 ====================================================================================================== */
 
 .midnight__content {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -148,7 +148,7 @@ main section {
 }
 
 
-.midnight__content .midnight__text .midnight__btn:hover{
+.midnight__content .midnight__text .midnight__btn:hover {
     border: 1px solid #FF0000;
     background-color: transparent;
     color: #fff;
@@ -197,7 +197,7 @@ main section {
     border: 1px solid transparent;
 }
 
-.joinNow__content .joinNow__btn:hover{
+.joinNow__content .joinNow__btn:hover {
     border: 1px solid #FF0000;
     background-color: transparent;
     color: #FF0000;
@@ -319,8 +319,9 @@ main section {
     width: 100%;
     height: 230px;
     background-color: #FF0000;
-    bottom: -230px;
+    bottom: -220px;
     left: 0;
+    z-index: 1;
 }
 
 
@@ -333,13 +334,27 @@ main section {
 }
 
 
+
+
 .holiday__content .holiday__surprizeBox .holiday__img {
     position: absolute;
     width: 800;
     height: 500px;
-    bottom: -300px;
+    bottom: -290px;
+    z-index: 2;
 }
 
+.holiday__content .holiday__imgs{
+    position: relative;
+}
+
+.holiday__content .holiday__imgs .holiday__discount-img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: -100px;
+}
 
 /* ===================================================================================================
 =========== Portfolio Section Related Style ================
@@ -505,7 +520,7 @@ main section {
     width: 90%;
 }
 
-.footer__horizontalLine{
+.footer__horizontalLine {
     /* background: rgba(255, 255, 255, 0.15); */
     background-color: gray;
     height: 1px;
@@ -579,5 +594,3 @@ main section {
     font-size: 24px;
     font-weight: 500;
 }
-
-
